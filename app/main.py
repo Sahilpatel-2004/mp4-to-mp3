@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/14z4L-jBT_WA8pY5ty9BrnkTnpOhOIhK7
 """
 
-!pip install fastapi
 !pip install uvicorn
 !pip install python-multipart
 !pip install moviepy
