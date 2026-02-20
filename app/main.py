@@ -7,12 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/14z4L-jBT_WA8pY5ty9BrnkTnpOhOIhK7
 """
 
-!pip install uvicorn
-!pip install python-multipart
-!pip install moviepy
-
-!apt-get update && apt-get install -y ffmpeg
-
 from fastapi import FastAPI, File, UploadFile, Header, HTTPException
 from fastapi.responses import FileResponse
 import os
