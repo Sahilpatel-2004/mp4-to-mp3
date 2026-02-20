@@ -72,7 +72,6 @@ async def convert_video(
         filename=mp3_filename
     )
 
-!uvicorn main:app --host 0.0.0.0 --port 10000
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile main.py
