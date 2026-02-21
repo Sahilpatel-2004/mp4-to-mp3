@@ -1,5 +1,5 @@
-fastapi
-uvicorn
-python-multipart
-moviepy
-imageio-ffmpeg
+fastapi==0.110.0
+uvicorn==0.29.0
+python-multipart==0.0.9
+moviepy==1.0.3
+imageio-ffmpeg==0.4.9
